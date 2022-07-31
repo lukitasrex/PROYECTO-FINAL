@@ -1,0 +1,97 @@
+/* ------ NAVEGADOR HEADER TODAS LAS PAGINAS ------ */
+.header nav {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 100vw;
+    /* height: 100px; */
+    background-color: #050505!important;
+    padding-left: 50px;
+    padding: 10px;
+    color: #ffecec!important;
+}
+
+
+.header nav ul {
+    display: flex;
+    list-style: none;
+    /* margin: 80px; */
+}
+
+
+.header nav img {
+    display: flex;
+    justify-content: left;
+    right: 30px;
+    padding-left: 40px;
+    padding-right: 0px;
+    width: 10%;
+    height: 100%;
+    object-fit: contain;
+    background-attachment: fixed;
+    transition: all 3s ease;
+
+}
+
+
+.header nav img:hover{
+    transform: scale(.8,.8);
+    transform: rotate(360deg);
+}
+
+
+.header nav ul li a {
+    /* display: flex;
+    position: relative; */
+    text-decoration: none;
+    color: #ffecec;
+    /* font-weight: 500; */
+    /* text-transform: uppercase; */
+    /* font-size: 18px;
+    padding: 20px; */
+}
+
+
+.header nav ul li:hover{
+    background-color: #ffffff;
+    }
+
+
+.header nav ul li a:hover{
+        color: #010102;
+    }
+    
+
+.header nav h1 {
+    display: flex;
+    left: 160px;
+    padding-right: 100px;
+}
+
+
+
+.item-boton{
+    background-color: #ffecec;
+}
+
+.item-navbar{
+    background-color: #010102;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1100px){
+
+    .header nav img{
+        width:50px;
+        height: 50px;
+        padding-left:  0px!important;
+        
+    }
+}
