@@ -414,66 +414,19 @@
 
 .estadisticas {
     display:flex;
-    width: 100%;
-    height: 700px;
-    justify-content:space-between;
-    flex-direction: column;
+    justify-content:space-around;
+    
 }
 
 
-.section-estadisticas {
-    display: block;
-    flex-direction: column;
-    width: 300px;
-    height: 100px;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-
-
-.estadisticas div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    text-align: center;
-}
 
 .tabla{
     background-color: aliceblue;
+    width: 30%;
 
 }
 
 
-.tabla1 {
-    display: table;
-    padding: 10px;
-    background-color: aliceblue;
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 1.175rem;
-    width: 100%;
-    color: rgb(16, 4, 4);
-    text-align: center;
-    line-height: 1.5;
-    border-color: grey;
-    border-radius: 10px;
-}
-
-
-
-section h2 {
-    display: flex;
-    align-items: center;
-}
-
-
-.tcuerpo {
-    border-style: outset;
-    border-color: #0c0a0a7b;
-    border-radius: .3rem;
-    width: 300px;
-}
 
 
 .body-pag2 {
