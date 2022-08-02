@@ -374,6 +374,7 @@
     padding-top: 50px;
 }
 
+
 .aside ul li iframe:hover {
     -webkit-box-shadow: 0px 1px 15px 2px #000000;
     box-shadow: 0px 1px 15px 2px #000000;
@@ -752,8 +753,8 @@
 
 
 
-/* -------- media QUERIES --------- */
-@media screen and (max-width: 1130px){
+/* -------- ------MEDIA QUERIES ----------- */
+@media screen and (max-width: 375px) {
 /* ------------ NAVBAR --------------- */
 
 
@@ -761,8 +762,7 @@
     .header nav img{
         width:50px;
         height: 50px;
-        padding-left:  0px!important;
-        
+        padding-left:  0px!important;   
     }
 
 
@@ -774,9 +774,25 @@
 
 
 .contacto-contenedor{
+    flex-direction: column-reverse;
+}
+
+
+.link-streaming{
+    flex-direction: row-reverse;
+}
+
+
+.link-streaming a{
+  justify-content:space-between;
+
+}
+
+
+.contacto-contenedor{
     display: block;
     align-items: center;
-    width: 400px;
+    width: 350px;
 }
 
 
@@ -805,9 +821,10 @@
     .estadistica-actual {
         grid-area: estadistica-actual;
         display:block;
-        width: 400px;
+        width: 300px;
         align-items:center;
         justify-content: center;
+        padding: 0;
     }
 
 
@@ -840,17 +857,289 @@
 
     /* --- aside -- */
     .aside{
-        width: 400px;
+        width: 300px;
+
     }
 
     .aside ul li{
-        width: 400px;
+        width: 300px;
     }
 
-    .videos{
-        width: 350px;
+    .aside ul li img{
+        width: 250px;
+
     }
 
+    .aside ul li iframe{
+        width: 300px;
+        height: 200px;
+    }
+    
+
+ /* ----- footer pag INDEX ------ */
+
+ .contacto{
+    width: 375px;
+    margin: 0;
+    padding: 0;
+ }
 
 
 }
+
+
+
+
+
+
+
+/* -------- media QUERIES DE 425--------- */
+@media screen and (max-width: 425px) {
+/* ------------ NAVBAR --------------- */
+
+    .header nav img{
+        width:50px;
+        height: 50px;
+        padding-left:  0px!important;
+    }
+
+
+
+/* ------------ FOOTER ------------- */   
+.contacto{
+    flex-direction:column ;
+    padding: 0;
+}
+
+
+.contacto-contenedor{
+    flex-direction: column-reverse;
+    display: block;
+    align-items: center;
+    width: 375px;
+}
+
+
+.link-streaming{
+    flex-direction: row-reverse;
+}
+
+
+.link-streaming a{
+  justify-content:space-between;
+}
+
+
+.social{
+    display: block;
+}
+
+
+
+/* -------------- MEDIA Q DE INDEX ------------- */
+/* --- main INDEX --- */
+        .main-1{
+        display: block;
+        flex-direction: column;
+        align-items: center ;
+        justify-content: center;
+    }
+
+
+    .body-1 {
+        align-items: center;
+    }
+
+    
+    /* --- estadistica actual INDEX --- */
+    .estadistica-actual {
+        grid-area: estadistica-actual;
+        display:block;
+        width: 300px;
+        align-items:center;
+        justify-content: center;
+        padding: 0;
+    }
+
+
+    .lista-estadistica{
+        display:flex;
+        flex-direction: column;
+        width: 350px;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin:0;
+    }
+
+
+    /* --- Mejores de la historia INDEX --- */
+    .mejores-pag1 div{
+        display: block;
+        align-items: center;
+    }
+
+
+    .mejores-pag1 div table {
+        display: block;
+        flex-direction: column;
+        width: 10px;
+    }
+
+
+
+    /* --- aside -- */
+    .aside{
+        width: 300px;
+    }
+
+    .aside ul li{
+        width: 300px;
+    }
+
+    .aside ul li img{
+        width: 250px;
+    }
+
+
+    .aside ul li iframe{
+        width: 300px;
+        height: 200px;
+    }
+    
+
+}
+
+
+
+/* -------- media QUERIES DE 425--------- */
+@media screen and (max-width: 768px) {
+    /* ------------ NAVBAR --------------- */
+    
+        .header nav img{
+            width:50px;
+            height: 50px;
+            padding-left:  0px!important;
+        }
+    
+    
+    
+    /* ------------ FOOTER ------------- */   
+    .contacto{
+        flex-direction:column ;
+        padding: 0;
+    }
+    
+    
+    .contacto-contenedor{
+        flex-direction: column-reverse;
+        display: block;
+        align-items: center;
+        width: 600px;
+    }
+    
+    
+    .link-streaming{
+        flex-direction: row-reverse;
+    }
+    
+    
+    .link-streaming a{
+      justify-content:space-between;
+    }
+    
+    
+    .social{
+        display: block;
+    }
+    
+    
+    
+    /* -------------- MEDIA Q DE INDEX ------------- */
+    /* --- main INDEX --- */
+            .main-1{
+            display: block;
+            flex-direction: column;
+            align-items: center ;
+            justify-content: center;
+            width: 760px;
+        }
+    
+    
+        .body-1 {
+            align-items: center;
+        }
+    
+        
+        /* --- estadistica actual INDEX --- */
+        .estadistica-actual {
+            grid-area: estadistica-actual;
+            display:block;
+            width: 760;
+            align-items:center;
+            justify-content: center;
+            padding: 0;
+        }
+    
+    
+        .lista-estadistica{
+            display:flex;
+            flex-direction: row;
+            width: 750px;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            margin:0;
+        }
+
+        .historia-nba{
+            width: 740px;
+          
+        }
+    
+    
+        /* --- Mejores de la historia INDEX --- */
+        .mejores-pag1 div{
+            align-items: center;
+            text-align: center;
+        }
+    
+    
+        .mejores-pag1 div table {
+            display: row;
+            flex-direction: column;
+            width: 10px;
+        }
+    
+    
+    
+        /* --- aside -- */
+        .aside{
+            width: 750px;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .aside ul{
+            display: block;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            width: 740;
+        }
+
+        .aside ul li{
+            width: 740px;
+        }
+    
+        .aside ul li img{
+            width: 250px;
+        }
+    
+    
+        .aside ul li iframe{
+            width: 300px;
+            height: 200px;
+        }
+        
+    }    
