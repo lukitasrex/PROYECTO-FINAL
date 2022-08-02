@@ -677,7 +677,7 @@
 
 
 
-/* -------- media QUERIES DE 425--------- */
+/* -------- media QUERIES DE 768--------- */
 @media screen and (max-width: 768px) {
     /* ------------ NAVBAR ---------------  */
    
@@ -693,8 +693,8 @@
    .contacto{
        flex-direction:column ;
        padding: 0;
+       width: 760px;
    }
-   
    
    .contacto-contenedor{
        flex-direction: column-reverse;
@@ -703,16 +703,13 @@
        width: 370px;
    }
    
-   
    .link-streaming{
        flex-direction: row-reverse;
    }
    
-   
    .link-streaming a{
      justify-content:space-between;
    }
-   
    
    .social{
        display: block;
@@ -727,12 +724,13 @@
            flex-direction: column;
            align-items: center ;
            justify-content: center;
-           width: 760px;
+           width: 768px;
        }
    
    
        .body-1 {
            align-items: center;
+           width: 768px;
        }
    
        
@@ -982,24 +980,22 @@
     /* ------------ FOOTER ------------- */   
     .contacto{
         flex-direction:column ;
+        width: 375px;
+        margin: 0;
+        padding: 0;
     }
-    
     
     .contacto-contenedor{
         flex-direction: column-reverse;
     }
     
-    
     .link-streaming{
         flex-direction: row-reverse;
     }
     
-    
     .link-streaming a{
       justify-content:space-between;
-    
     }
-    
     
     .contacto-contenedor{
         display: block;
@@ -1007,14 +1003,13 @@
         width: 350px;
     }
     
-    
     .social{
         display: block;
     }
+
     
     
-    
-    /* -------------- MEDIA Q DE INDEX ------------- */
+    /* -------------- MAIN BODY DE INDEX ------------- */
     /* --- main INDEX --- */
             .main-1{
             display: block;
@@ -1024,7 +1019,6 @@
             width: 375px;
         }
     
-
         .body-1 {
             align-items: center;
         }
@@ -1041,7 +1035,6 @@
             padding: 0;
         }
     
-    
         .lista-estadistica{
             display:flex;
             flex-direction: column;
@@ -1053,16 +1046,13 @@
         }
     
 
-        /* --- Seccion Historia nba INDEX---- */
-
-
+        /* --- SECCION HISTORIA PAG INDEX---- */
         .historia-nba{
             width: 370px;
         }
     
 
-        /* --- Mejores de la historia INDEX --- */
-
+        /* --- MEJORES DE LA HISTORIA PAG INDEX --- */
         .mejores-pag1{
             width: 370px;
         }
@@ -1086,40 +1076,24 @@
         }
     
     
-    
-        /* ----- aside  pagina INDEX--- */
+        /* ----- ASIDE  pagina INDEX--- */
         .aside{
             width: 300px;
         }
     
-
         .aside ul li{
             width: 300px;
         }
     
-
         .aside ul li img{
             width: 250px;
     
         }
     
-
         .aside ul li iframe{
             width: 300px;
             height: 200px;
         }
-        
-
-
-    
-     /* ----- footer pag INDEX ------ */
-     .contacto{
-        width: 375px;
-        margin: 0;
-        padding: 0;
-     }
-    
-    
     }
     
     
@@ -1128,3 +1102,18 @@
     
 
 
+              /* --------------------MEDIA QUERIE DE PAGINA ESTADISTICA -------------------- */
+
+              /* -------- media QUERIES DE 768--------- */
+@media screen and (max-width: 768px) {
+
+
+    .estadisticas{
+        flex-direction: column;
+        align-items: center;
+    }
+    .tabla{
+        width: 20%;
+    }
+
+}
