@@ -346,10 +346,29 @@
     grid-area: mejores;
     background-color: #f0efea;
     margin-top: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.estadistica-historica {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0efea;
 }
 
 
+.mejores-pag1 div{
+    align-items: center;
+    text-align: center;
+}
 
+
+.mejores-pag1 div table {
+    display: row;
+    flex-direction: column;
+}
 
 
 
