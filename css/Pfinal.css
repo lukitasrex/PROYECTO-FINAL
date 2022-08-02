@@ -346,14 +346,13 @@
     grid-area: mejores;
     background-color: #f0efea;
     margin-top: 100px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+   
 }
 .estadistica-historica {
     display: inline-block;
     text-align: center;
     align-items: center;
+    width: 1000px;
     justify-content: center;
     background-color: #f0efea;
 }
