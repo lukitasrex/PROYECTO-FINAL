@@ -762,27 +762,31 @@
        }
    
    
-       /* --- Mejores de la historia INDEX --- */
-       .mejores-pag1 div{
-           align-items: center;
-           text-align: center;
-       }
-   
-   
-       .mejores-pag1 div table {
-           display: row;
-           flex-direction: column;
-           width: 10px;
-       }
-   
-       .lista-estadistica-h{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin: 0;
-        padding: 20px;
-        width: 900px;
+      /* --- Mejores de la historia INDEX --- */
+
+      .mejores-pag1{
+        width: 750px;
     }
+    .mejores-pag1 div{
+        display: block;
+        align-items: center;
+        width: 750px;
+    }
+
+
+    .estadistica-historica{
+        width: 750px;
+    }
+
+    .lista-estadistica-h{
+        width: 750px;
+    }
+
+    .lista-estadistica-h div{
+        padding: 0;
+    }
+
+
    
        /* --- aside -- */
        .aside{
@@ -815,142 +819,6 @@
        
     }  
 
-
-
-
-/* -------- ------MEDIA QUERIES ----------- */
-@media screen and (max-width: 375px) {
-/* ------------ NAVBAR --------------- */
-
-
-
-    .header nav img{
-        width:50px;
-        height: 50px;
-        padding-left:  0px!important;   
-    }
-
-
-
-/* ------------ FOOTER ------------- */   
-.contacto{
-    flex-direction:column ;
-}
-
-
-.contacto-contenedor{
-    flex-direction: column-reverse;
-}
-
-
-.link-streaming{
-    flex-direction: row-reverse;
-}
-
-
-.link-streaming a{
-  justify-content:space-between;
-
-}
-
-
-.contacto-contenedor{
-    display: block;
-    align-items: center;
-    width: 350px;
-}
-
-
-.social{
-    display: block;
-}
-
-
-
-/* -------------- MEDIA Q DE INDEX ------------- */
-/* --- main INDEX --- */
-        .main-1{
-        display: block;
-        flex-direction: column;
-        align-items: center ;
-        justify-content: center;
-    }
-
-    .body-1 {
-        align-items: center;
-    }
-
-
-    
-    /* --- estadistica actual INDEX --- */
-    .estadistica-actual {
-        grid-area: estadistica-actual;
-        display:block;
-        width: 300px;
-        align-items:center;
-        justify-content: center;
-        padding: 0;
-    }
-
-
-    .lista-estadistica{
-        display:flex;
-        flex-direction: column;
-        width: 350px;
-        align-items: center;
-        justify-content: center;
-        padding: 0;
-        margin:0;
-    }
-
-
-    /* --- Mejores de la historia INDEX --- */
-    .mejores-pag1 div{
-        display: block;
-        align-items: center;
-    }
-
-
-    .mejores-pag1 div table {
-        display: block;
-        flex-direction: column;
-        width: 10px;
-    }
-
-
-
-
-    /* --- aside -- */
-    .aside{
-        width: 300px;
-
-    }
-
-    .aside ul li{
-        width: 300px;
-    }
-
-    .aside ul li img{
-        width: 250px;
-
-    }
-
-    .aside ul li iframe{
-        width: 300px;
-        height: 200px;
-    }
-    
-
- /* ----- footer pag INDEX ------ */
-
- .contacto{
-    width: 375px;
-    margin: 0;
-    padding: 0;
- }
-
-
-}
 
 
 
@@ -1008,11 +876,13 @@
         flex-direction: column;
         align-items: center ;
         justify-content: center;
+        width: 425px;
     }
 
 
     .body-1 {
         align-items: center;
+        width: 100vw;
     }
 
     
@@ -1038,17 +908,36 @@
     }
 
 
-    /* --- Mejores de la historia INDEX --- */
+   
+        /* --- Seccion Historia nba INDEX---- */
+        .historia-nba{
+            width: 400px;
+        }
+    
+
+
+     /* --- Mejores de la historia INDEX --- */
+
+     .mejores-pag1{
+        width: 420px;
+    }
     .mejores-pag1 div{
         display: block;
         align-items: center;
+        width: 420px;
     }
 
 
-    .mejores-pag1 div table {
-        display: block;
-        flex-direction: column;
-        width: 10px;
+    .estadistica-historica{
+        width: 420px;
+    }
+
+    .lista-estadistica-h{
+        width: 420px;
+    }
+
+    .lista-estadistica-h div{
+        padding: 0;
     }
 
 
@@ -1058,9 +947,11 @@
         width: 300px;
     }
 
+
     .aside ul li{
         width: 300px;
     }
+
 
     .aside ul li img{
         width: 250px;
@@ -1071,23 +962,22 @@
         width: 300px;
         height: 200px;
     }
-    
-
 }
+
+
+
+
 
 /* -------- ------MEDIA QUERIES ----------- */
 @media screen and (max-width: 375px) {
     /* ------------ NAVBAR --------------- */
-    
-    
-    
         .header nav img{
             width:50px;
             height: 50px;
             padding-left:  0px!important;   
         }
     
-    
+
     
     /* ------------ FOOTER ------------- */   
     .contacto{
@@ -1134,6 +1024,7 @@
             width: 375px;
         }
     
+
         .body-1 {
             align-items: center;
         }
@@ -1166,13 +1057,13 @@
 
 
         .historia-nba{
-            width: 375px;
+            width: 370px;
         }
     
 
         /* --- Mejores de la historia INDEX --- */
 
-        mejores-pag1{
+        .mejores-pag1{
             width: 370px;
         }
         .mejores-pag1 div{
@@ -1183,39 +1074,45 @@
     
 
         .estadistica-historica{
-            width: 375px;
+            width: 360px;
         }
 
         .lista-estadistica-h{
-            width: 370px;
+            width: 360px;
+        }
+
+        .lista-estadistica-h div{
+            padding: 0;
         }
     
     
     
-    
-        /* --- aside -- */
+        /* ----- aside  pagina INDEX--- */
         .aside{
             width: 300px;
-    
         }
     
+
         .aside ul li{
             width: 300px;
         }
     
+
         .aside ul li img{
             width: 250px;
     
         }
     
+
         .aside ul li iframe{
             width: 300px;
             height: 200px;
         }
         
+
+
     
      /* ----- footer pag INDEX ------ */
-    
      .contacto{
         width: 375px;
         margin: 0;
