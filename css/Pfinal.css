@@ -343,7 +343,7 @@
 
 /* -- SECCION MEJORES DE LA HISTORIA-- */
 .mejores-pag1 {
-    grid-area: mejores;
+    grid-area:mejores;
     background-color: #f0efea;
     margin-top: 100px;
    
@@ -355,6 +355,10 @@
     width: 1000px;
     justify-content: center;
     background-color: #f0efea;
+}
+
+.lista-estadistica-h{
+    width: 800px;
 }
 
 
