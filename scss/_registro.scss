@@ -1,0 +1,81 @@
+/* ----------------- css de la pagina REGISTRO       ---------------- */
+/* -----  BODY REGISTRO    ---- */
+.h1-registro {
+    background-color: #020208f9;
+    padding: 20px;
+    width: 100%;
+    color: #fbf5f5cd;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+.BodyRegistro {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #020208f9;
+    text-decoration: none;
+}
+
+
+.registro {
+    width: 400px;
+    background-color: #020208f9;
+    padding: 40px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-decoration: none;
+
+    h3{
+        text-align: center;
+    }
+
+    h4{
+        margin-bottom: 20px;
+    font-size: 22px;
+    padding-top: 40px;
+    text-align: left;
+    text-decoration: none;
+    text-decoration: none;
+
+    }
+}
+
+
+
+.botones {
+    width: 100%;
+    padding: 8px;
+    border-radius: 2px;
+    margin-bottom: 16px;
+    border: 1px solid #d6af2e;
+    background-color: #0e2b48;
+    font-size: 18px;
+}
+
+.boton-enviar input:hover{
+    background-color: #c25226;
+    color: white;
+
+}
+
+.boton-enviar input:active{
+    background-color: rgba(207, 24, 0, 0.884);
+    color: rgb(9, 9, 128);
+}
+
+
+
+.nav-list a {
+    display: inline;
+    list-style-type: none;
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+}
+
+
