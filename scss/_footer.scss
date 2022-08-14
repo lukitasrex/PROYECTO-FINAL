@@ -1,0 +1,73 @@
+/* ------ FOOTER  CONTACTO TODAS LAS PAGINAS ------ */
+.contacto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffecec;
+    background-image: linear-gradient(to bottom, #010102, #010102, #010102, #010102, #010102, #020203, #020203, #030304, #040405, #050507, #060608, #070709);
+    padding: 40px;
+
+    p{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        align-items: center;
+        padding: 10px;
+
+    }
+
+    h2{
+        padding: 20px;
+    }
+}
+
+
+.contacto >div {
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    padding: 5px;
+    border-radius: 0.2em;
+    border-color: #ffecec;
+    border-width: 2px;
+}
+
+
+.contacto div img {
+    width: 100px;
+    height: 100px;
+    padding: 2px;
+    border-color: #101215;
+    border-radius: 10px;
+}
+
+
+.link-streaming {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+}
+
+
+.social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    padding: 10px;
+}
+
+
+.social a {
+    padding: 10px;
+    text-align: center;
+}
+
+
+.social a img:hover {
+    transform: scale(1.05) translate(-3px);
+}
+
+.link-streaming img:hover{
+    transform: scale(1.05) translate(-3px);
+}

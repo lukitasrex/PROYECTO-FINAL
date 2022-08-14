@@ -1,0 +1,167 @@
+/*  ---------------  PAGINA 1 PRINCIPAL  --------------   */
+
+/* ---- BODY DE LA PAG 1 ---- */
+.body-1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f0efea;
+    color: #0e0d0c;
+}
+
+
+.main-1 {
+    display: grid;
+    grid-template-areas:
+        "estadistica-actual aside"
+        "historia-nba aside"
+        "mejores mejores";
+    margin: 10px;
+}
+
+
+/* -- SECCION ESTADISTICA-- */
+.estadistica-actual {
+    grid-area: estadistica-actual;
+    display: inline-block;
+    text-align: center;
+    background-color: #f0efea;
+    padding: 10px;
+
+    h2{
+        justify-content: center;
+    padding: 10px;
+    }
+}
+
+
+
+.lista-estadistica {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 250px;
+
+    div{
+
+        img{
+            width: 180px;
+            margin: 10px;
+        }
+
+    }
+}
+
+
+
+
+/* -- SECCION HISTORIA-- */
+.historia-nba {
+    grid-area: historia-nba;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0efea;
+    padding:  -50px;
+    border: 2px solid #101215;
+
+    div{
+        h2{
+            justify-content: center;
+        }
+
+        p{
+            justify-content: center;
+            padding: 10px;  
+        }
+    }
+}
+
+
+
+
+
+/* -- SECCION MEJORES DE LA HISTORIA-- */
+.mejores-pag1 {
+    grid-area:mejores;
+    background-color: #f0efea;
+    margin-top: 100px;
+
+    div{
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+
+.estadistica-historica {
+    text-align: center;
+    align-items: center;
+    width: 1000px;
+    justify-content: center;
+    background-color: #f0efea;
+}
+
+
+.lista-estadistica-h{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+
+    div{
+        padding: 30px;
+ 
+    }
+}
+
+
+
+/* -- SECCION ASIDE-- */
+.aside {
+    grid-area: aside;
+    background-color: #f0efea;
+    text-align: center;
+    width: 550px;
+
+    h2{
+        justify-content: center;
+    }
+
+    ul{
+        list-style-type: none;
+
+        li{
+            padding: 10px;
+    padding-top: 50px; 
+        }
+    }
+}
+
+
+.aside ul li iframe:hover {
+    -webkit-box-shadow: 0px 1px 15px 2px #000000;
+    box-shadow: 0px 1px 15px 2px #000000;
+}
+
+
+.intro-aside{
+    border: 3px solid #050505;
+    background-color: #3d64b9;
+    color: #f0efea;
+    justify-content: center;
+
+    img{
+        border: 2px solid #f7f7f7;
+        border-radius: 2px;
+        width: 350px;
+        height: 200px;
+    }
+
+    h3{
+        text-align: center;
+        padding: 10px; 
+    }
+}

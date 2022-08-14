@@ -1,0 +1,82 @@
+/* ------ NAVEGADOR HEADER TODAS LAS PAGINAS ------ */
+
+
+
+.header{
+    width: 100vw;
+    height: 100px;
+
+    nav{
+        display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 80px; 
+    background-color: #050505!important;
+    padding-left: 50px;
+    padding: 10px; 
+    color: #ffecec!important;
+
+    h1{
+        display: flex;
+        left: 160px;
+        padding-right: 100px;
+    }
+
+    ul{
+        display: flex;
+        list-style: none;
+         margin: 80px; 
+         
+         li{
+            a{
+                text-decoration: none;
+                color: #ffecec;
+            }
+         }
+    }
+
+    img{
+        display: flex;
+    justify-content: left;
+    right: 30px;
+    padding-left: 40px;
+    padding-right: 0px;
+    width: 7%;
+    height: 10%;
+    object-fit: contain;
+    background-attachment: fixed;
+    transition: all 3s ease;
+
+    }
+    }
+    }
+
+
+
+
+.header nav img:hover{
+    transform: scale(.8,.8);
+    transform: rotate(360deg);
+}
+
+
+.header nav ul li:hover{
+    background-color: #ffffff;
+    }
+
+
+.header nav ul li a:hover{
+        color: #010102;
+    }
+    
+
+
+
+
+.item-boton{
+    background-color: #ffecec;
+}
+
+.item-navbar{
+    background-color: #010102;
+}
