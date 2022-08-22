@@ -114,7 +114,9 @@
 
 .main-1 {
   display: grid;
-  grid-template-areas: "estadistica-actual aside" "historia-nba aside" "mejores mejores";
+  grid-template-areas: "estadistica-actual aside"
+ "historia-nba aside"
+ "mejores mejores";
   margin: 10px; }
 
 /* -- SECCION ESTADISTICA-- */
