@@ -6,6 +6,7 @@
     color: #ffecec;
     background-image: linear-gradient(to bottom, #010102, #010102, #010102, #010102, #010102, #020203, #020203, #030304, #040405, #050507, #060608, #070709);
     padding: 40px;
+    width: 100%;
 
     p{
         display: flex;
@@ -34,8 +35,8 @@
 
 
 .contacto div img {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     padding: 2px;
     border-color: #101215;
     border-radius: 10px;

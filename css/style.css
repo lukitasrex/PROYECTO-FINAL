@@ -5,7 +5,8 @@
   align-items: center;
   color: #ffecec;
   background-image: linear-gradient(to bottom, #010102, #010102, #010102, #010102, #010102, #020203, #020203, #030304, #040405, #050507, #060608, #070709);
-  padding: 40px; }
+  padding: 40px;
+  width: 100%; }
   .contacto p {
     display: flex;
     flex-direction: row;
@@ -25,8 +26,8 @@
   border-width: 2px; }
 
 .contacto div img {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   padding: 2px;
   border-color: #101215;
   border-radius: 10px; }
@@ -55,17 +56,17 @@
 
 /* ------ NAVEGADOR HEADER TODAS LAS PAGINAS ------ */
 .header {
-  width: 100vw;
+  width: 100%;
   height: 100px; }
   .header nav {
     display: flex;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     height: 80px;
     background-color: #050505 !important;
     padding-left: 50px;
     padding: 10px;
-    color: #ffecec !important; }
+    color: #fcf1f1 !important; }
     .header nav h1 {
       display: flex;
       left: 160px;
@@ -109,15 +110,16 @@
 /* ---- BODY DE LA PAG 1 ---- */
 .body-1 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-color: #f0efea;
-  color: #0e0d0c; }
+  background-color: #f1f1ee;
+  color: #0e0d0c;
+  box-sizing: border-box; }
 
 .main-1 {
   display: grid;
-  grid-template-areas: "estadistica-actual aside"
- "historia-nba aside"
- "mejores mejores";
-  margin: 10px; }
+  grid-template-areas: "estadistica-actual aside" "historia-nba aside" "mejores mejores";
+  margin: 0px;
+  box-sizing: border-box;
+  width: 100%; }
 
 /* -- SECCION ESTADISTICA-- */
 .estadistica-actual {
@@ -128,23 +130,26 @@
   padding: 10px; }
   .estadistica-actual h2 {
     justify-content: center;
-    padding: 10px; }
+    padding: 10px;
+    background-color: #22448b;
+    color: #f1f1ee; }
 
 .lista-estadistica {
   display: flex;
-  width: 200px;
   justify-content: center;
   align-items: center;
   justify-content: space-around;
-  padding-left: 250px; }
-  .lista-estadistica div img {
-    width: 180px;
-    margin: 10px; }
+  padding-left: 0px; }
+  .lista-estadistica div {
+    background-color: #dfdfdb; }
+    .lista-estadistica div img {
+      width: 150px;
+      margin: 10px; }
 
 /* -- SECCION HISTORIA-- */
 .historia-nba {
   grid-area: historia-nba;
-  text-align: left;
+  text-align: center;
   align-items: center;
   justify-content: center;
   background-color: #f0efea;
@@ -164,51 +169,65 @@
   .mejores-pag1 div {
     align-items: center;
     text-align: center; }
+    .mejores-pag1 div h2 {
+      background-color: #1b3469;
+      color: #f1f1ee; }
 
 .estadistica-historica {
   text-align: center;
   align-items: center;
-  width: 1000px;
-  justify-content: center;
-  background-color: #f0efea; }
+  background-color: #676e7c4b;
+  margin-top: 0px;
+  margin-bottom: 0px; }
 
 .lista-estadistica-h {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 0;
+  justify-content: center;
+  margin: 0px;
   padding: 20px; }
   .lista-estadistica-h div {
-    padding: 30px; }
+    padding: 0px;
+    margin: 10px;
+    background-color: #dfdfdb;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+    .lista-estadistica-h div h4 {
+      background-color: #1b3469;
+      color: #f0efea; }
 
 /* -- SECCION ASIDE-- */
 .aside {
   grid-area: aside;
   background-color: #f0efea;
+  justify-content: center;
   text-align: center;
-  width: 550px; }
+  margin: 10px; }
   .aside h2 {
-    justify-content: center; }
+    justify-content: center;
+    background-color: #0e0d0c;
+    color: #f0efea;
+    margin-left: 32px; }
   .aside ul {
-    list-style-type: none; }
+    list-style-type: none;
+    padding: 0px; }
     .aside ul li {
-      padding: 10px;
-      padding-top: 50px; }
+      margin: 40px;
+      padding-top: 50px;
+      background-color: #dfdfdb; }
 
 .aside ul li iframe:hover {
-  -webkit-box-shadow: 0px 1px 15px 2px #000000;
-  box-shadow: 0px 1px 15px 2px #000000; }
+  -webkit-box-shadow: 0px 1px 15px 2px #414141;
+  box-shadow: 0px 1px 15px 2px #474747; }
 
 .intro-aside {
-  border: 3px solid #050505;
-  background-color: #3d64b9;
-  color: #f0efea;
-  justify-content: center; }
+  background-color: #ffffff;
+  color: #141414;
+  justify-content: center;
+  width: auto; }
   .intro-aside img {
-    border: 2px solid #f7f7f7;
-    border-radius: 2px;
-    width: 350px;
-    height: 200px; }
+    width: 300px;
+    height: 170px; }
   .intro-aside h3 {
     text-align: center;
     padding: 10px; }
