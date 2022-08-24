@@ -7,6 +7,7 @@
     font-size: 20px;
     font-weight: 300;
     color: #ffecec;
+    
 }
 
 
@@ -70,43 +71,50 @@
     h3{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        margin: 50px 0px -50px 0px;
     }
 
     img{
         padding-bottom: 10px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         width: 30%;
         height: 30%;
         padding: 10px;
+        float: left;
+        padding-top: -50px;
     }
-}
 
 
+div{
+    margin: 100px;
 
-.historia-p1 {
-    display: flex;
+    .historia-p1 {
     font-size: 18px;
     padding: 10px;
-}
+    font-family: 'IBM Plex Sans', sans-serif;
+    flex-direction: column;
+    }
 
-
-.historia-p2 {
+    h3{
     display: flex;
-    font-size: 18px;
-    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 10px;
+    }
+
+   
 }
-
-
-.historia-p3 {
-    display: flex;
-    font-size: 18px;
-    padding: 10px;
+.historia-part3{
+    img{
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        float: right;
+        padding-top: -50px;
+        width: 50%;
+    } 
 }
-
-
-.historia-p4 {
-    display: flex;
-    font-size: 18px;
-    padding: 10px;
 }
