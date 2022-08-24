@@ -328,6 +328,9 @@
     float: right;
     padding-top: -50px;
     width: 50%; }
+  .comienzo-historia .video-historia {
+    align-items: center;
+    padding-left: 300px; }
 
 /*-------------- PAGINA 4 ALL TIME LEADERS ------------------*/
 /* ------main pag 4 ------*/
