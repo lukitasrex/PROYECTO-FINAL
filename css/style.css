@@ -246,6 +246,11 @@
   background-color: #060505;
   color: #ffecec; }
 
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
 /* ----------------- PAGINA 3  HISTORIA DE LA NBA ----------------- */
 /* ----- Body pag 3------ */
 .body-3 {
