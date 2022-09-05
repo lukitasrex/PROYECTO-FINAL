@@ -241,15 +241,22 @@
 .tabla {
   background-color: aliceblue;
   width: 30%; }
+  .tabla tbody .tr1 {
+    background-color: rgba(32, 65, 197, 0.685); }
 
 .body-pag2 {
   background-color: #060505;
   color: #ffecec; }
-
-h2 {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
+  .body-pag2 h2 {
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .body-pag2 p {
+    margin: 10px;
+    padding: 50px; }
+  .body-pag2 .titulo-equipo {
+    padding: 100px; }
 
 /* ----------------- PAGINA 3  HISTORIA DE LA NBA ----------------- */
 /* ----- Body pag 3------ */
