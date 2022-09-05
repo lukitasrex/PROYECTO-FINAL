@@ -255,8 +255,9 @@
   .body-pag2 p {
     margin: 10px;
     padding: 50px; }
-  .body-pag2 .titulo-equipo {
-    padding: 100px; }
+  .body-pag2 .estadisticas-equipo .titulo-equipo {
+    padding: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
 
 /* ----------------- PAGINA 3  HISTORIA DE LA NBA ----------------- */
 /* ----- Body pag 3------ */
