@@ -257,9 +257,23 @@
     padding: 50px; }
   .body-pag2 .titulo-equipo {
     padding: 100px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+    font-family: Impact, 'Arial Narrow Bold', sans-serif; }
+  .body-pag2 .estadisticas-equipo {
+    display: flex;
+    justify-content: space-evenly !important;
+    align-items: inherit;
+    width: 100%; }
   .body-pag2 .acordeon-estadistica {
-    width: 500px !important; }
+    width: 400px !important;
+    display: flex; }
+  .body-pag2 .acordeon-titulo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    background-color: rgba(32, 65, 197, 0.685);
+    color: #ffecec; }
+  .body-pag2 .promedio-liga {
+    width: 100vw;
+    background-color: rgba(33, 53, 125, 0.888) !important;
+    color: #ffecec; }
 
 /* ----------------- PAGINA 3  HISTORIA DE LA NBA ----------------- */
 /* ----- Body pag 3------ */
