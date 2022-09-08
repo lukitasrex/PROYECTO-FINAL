@@ -18,7 +18,7 @@
 
     tbody{
        .tr1{
-            background-color: rgba(32, 65, 197, 0.685);
+            background-color: rgba(32, 65, 197, 0.33);
         }
     }
 
@@ -75,7 +75,9 @@
             color: #ffecec;
         }
 
-       
+       .tr1{
+        background-image: linear-gradient(to right bottom, #ffffff, #f7f7f8, #f0eff2, #e8e8eb, #e0e0e5, #e0e0e5, #e0e0e5, #e0e0e5, #e8e8eb, #f0eff2, #f7f7f8, #ffffff);
+       }
 }
    
 

@@ -242,7 +242,7 @@
   background-color: aliceblue;
   width: 30%; }
   .tabla tbody .tr1 {
-    background-color: rgba(32, 65, 197, 0.685); }
+    background-color: rgba(32, 65, 197, 0.33); }
 
 .body-pag2 {
   background-color: #060505;
@@ -274,6 +274,8 @@
     width: 100vw;
     background-color: rgba(33, 53, 125, 0.888) !important;
     color: #ffecec; }
+  .body-pag2 .tr1 {
+    background-image: linear-gradient(to right bottom, #ffffff, #f7f7f8, #f0eff2, #e8e8eb, #e0e0e5, #e0e0e5, #e0e0e5, #e0e0e5, #e8e8eb, #f0eff2, #f7f7f8, #ffffff); }
 
 /* ----------------- PAGINA 3  HISTORIA DE LA NBA ----------------- */
 /* ----- Body pag 3------ */
