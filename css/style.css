@@ -242,13 +242,14 @@
   background-color: aliceblue;
   width: 30%; }
   .tabla tbody .tr1 {
-    background-color: rgba(32, 65, 197, 0.33); }
+    background-color: rgba(32, 65, 197, 0.33) !important; }
 
 .body-pag2 {
   background-color: #060505;
-  color: #ffecec; }
+  color: #ffecec;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
   .body-pag2 h2 {
-    font-family: 'Rubik', sans-serif;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center; }
@@ -257,18 +258,20 @@
     padding: 50px; }
   .body-pag2 .titulo-equipo {
     padding: 100px;
-    font-family: Impact, 'Arial Narrow Bold', sans-serif; }
+    text-align: center;
+    font-family: 'Rubik', sans-serif; }
   .body-pag2 .estadisticas-equipo {
     display: flex;
     justify-content: space-evenly !important;
-    align-items: inherit;
-    width: 100%; }
+    align-items: inherit; }
+  .body-pag2 .acordeon {
+    width: 350px; }
   .body-pag2 .acordeon-estadistica {
-    width: 400px !important;
+    width: 300px !important;
     display: flex; }
   .body-pag2 .acordeon-titulo {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-    background-color: rgba(32, 65, 197, 0.685);
+    background-color: rgba(33, 65, 197, 0.685);
     color: #ffecec; }
   .body-pag2 .promedio-liga {
     width: 100vw;

@@ -4,6 +4,7 @@
 
 /*  ----- main y body pag 2-----  */
 
+// ---- estadisticas de jugadores ---
 .estadisticas {
     display:flex;
     justify-content:space-around;
@@ -18,7 +19,7 @@
 
     tbody{
        .tr1{
-            background-color: rgba(32, 65, 197, 0.33);
+            background-color: rgba(32, 65, 197, 0.33)!important;
         }
     }
 
@@ -30,9 +31,10 @@
 .body-pag2 {
     background-color: #060505;
     color: #ffecec;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
     h2{
-        font-family: 'Rubik', sans-serif;
+        font-family: Impact, 'Arial Narrow Bold', sans-serif;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -44,9 +46,12 @@
     }
 
     
+
+    // ------estadisticas de equipos ------//
         .titulo-equipo{
             padding: 100px;
-            font-family: Impact, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+            font-family: 'Rubik', sans-serif;
         }  
 
 
@@ -55,17 +60,21 @@
             display: flex;
             justify-content:space-evenly!important;
             align-items:inherit;
-            width: 100%;
+           
         }
 
+        .acordeon{
+            width: 350px;
+           
+        }
         .acordeon-estadistica{
-            width: 400px!important;
+            width: 300px!important;
             display: flex;
         }
 
         .acordeon-titulo{
             font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-            background-color: rgba(32, 65, 197, 0.685);
+            background-color: rgba(33, 65, 197, 0.685);
             color: #ffecec;
         
         }
